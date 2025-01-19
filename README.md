@@ -1,0 +1,15 @@
+<!-- FRONTEND .ENV -->
+
+VITE_API_URL=http://localhost:4000
+
+GOOGLE_MAPS_API_KEY=
+
+
+<!-- BACKEND .ENV -->
+
+MONGODB_KEY=
+
+PORT=4000
+
+GOOGLE_MAPS_API_KEY=
+
