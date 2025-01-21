@@ -97,7 +97,23 @@ const AddUser = () => {
         userPayload
       );
       alert("User created successfully!");
-      navigate("/");
+      setFormData({
+        name: "",
+        role: "",
+        bio: "",
+        skills: "",
+        email: "",
+        phone: "",
+        street: "",
+        city: "",
+        state: "",
+        postalCode: "",
+        country: "",
+        currentCompany: "",
+        experience: "",
+        education: "",
+        recentProjects: [{ title: "", description: "" }],
+      });
     } catch (error) {
       console.error("Error creating user:", error);
       alert("Failed to create user. Please try again.");
